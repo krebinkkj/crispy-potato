@@ -1,0 +1,26 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{js,ts,mjs}]
+indent_size = 4
+indent_style = tab
+block-comment_start = /*
+block_comment_env = */
+
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
+
+[*.{md,rmd,mkd,mkdn,mdwn,mdown,markdown,litcoffee}]
+tab_width = 4
+trim_trailing_whitespace = false
+
+[*.{ps1}]
+max_line_length = 115
+indent_size = 4
+indent_style = space
